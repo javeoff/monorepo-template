@@ -1,0 +1,13 @@
+{
+  "name": "cryptoscan",
+  "scripts": {
+    "build": "turbo build",
+		"test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run"
+  },
+  "dependencies": {
+    "turbo": "^1.13.2",
+    "vitest": "^1.6.0"
+  }
+}
